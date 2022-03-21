@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "sam",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jdivya20/automationtesting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jdivya20/automationtesting/issues"
+  },
+  "homepage": "https://github.com/Jdivya20/automationtesting#readme"
+}
