@@ -1,1 +1,3 @@
-document.getElementById("hi").innerHTML = "successfuly tested"
+function clicked(){
+    document.getElementById("hi").innerHTML = "after clicking"
+}
