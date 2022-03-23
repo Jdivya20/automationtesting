@@ -23,6 +23,13 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
 
+    - name: Merge development -> master
+        uses: Jdivya20/automationtesting@master
+        with:
+          type: now
+          from_branch: github.ref_name
+          target_branch: master
+          github_token: ${{ github.token }}
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
