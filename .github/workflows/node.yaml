@@ -24,7 +24,7 @@ jobs:
     - run: npm test
 
     - name: Merge development -> master
-        uses: Jdivya20/automationtesting@v2
+      uses: Jdivya20/automationtesting@v2
         with:
           type: now
           from_branch: github.ref_name
