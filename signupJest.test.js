@@ -2,7 +2,7 @@ const testValidation = require('./signupJest');
 
 describe("Calculator tests", () => {
     test('password', () => {
-      expect(testValidation("ramsantosh34@gmail.com","ram","testpass@34","testpass@34")).toBe(true);
+      expect(testValidation("ramsantosh34@gmail.com","ram","testpass@34","testpass@34")).toBe(false);
     });
     test('email', () => {
         expect(testValidation("ramsantosh34@gma","ram","Testpass@34","Testpass@34")).toBe(false);
