@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":["document","getElementById","innerHTML"],"mappings":";AAAAA,SAASC,eAAe,MAAMC,UAAY","file":"automationtesting.11cb193b.js","sourceRoot":"..","sourcesContent":["document.getElementById(\"hi\").innerHTML = \"successfuly tested\""]}

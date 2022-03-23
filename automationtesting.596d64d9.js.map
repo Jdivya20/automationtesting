@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["clicked","document","getElementById","innerHTML"],"mappings":";AAAA,SAASA,IACLC,SAASC,eAAe,MAAMC,UAAY","file":"automationtesting.596d64d9.js","sourceRoot":"..","sourcesContent":["function clicked(){\n    document.getElementById(\"hi\").innerHTML = \"after clicking\"\n}\n"]}
