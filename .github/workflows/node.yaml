@@ -25,7 +25,7 @@ jobs:
 
     - name: Merge development -> master
       uses: Jdivya20/automationtesting@v2
-        with:
+      with:
           type: now
           from_branch: github.ref_name
           target_branch: master
