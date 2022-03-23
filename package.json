@@ -1,0 +1,29 @@
+{
+  "name": "autodeploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open", 
+    "start": "npm run build && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jdivya20/automationtesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jdivya20/automationtesting/issues"
+  },
+  "homepage": "https://github.com/Jdivya20/automationtesting#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "build": "^0.1.4",
+    "parcel-bundler": "^1.12.5"
+  }
+}
